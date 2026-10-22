@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1791623595 source:c:\users\zaman\onedrive\documents\nested_loop_first\main.c
+	<stdio.h>
+	<stdlib.h>
+
