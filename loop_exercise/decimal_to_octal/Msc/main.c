@@ -9,6 +9,6 @@ int main()
     }else{
         printf("Not equal\n");
     }
-    printf("%d", 0.1 + 0.2 == 0.3);
+    printf("%d", 0.25 + 0.5 == 0.5);
 
 }
