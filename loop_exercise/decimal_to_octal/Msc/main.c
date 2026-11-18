@@ -3,9 +3,11 @@
 int main()
 {
 
-    unsigned int um = 0;
-    um = um - 1;
-    printf("%u", um);
-
+    float g = 0.1;
+    if(g == 0.1){
+        printf("equal");
+    }else{
+        printf("Not equal");
+    }
 
 }
