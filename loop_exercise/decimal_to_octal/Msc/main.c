@@ -2,10 +2,11 @@
 
 int main()
 {
-
-    int number;
-    char ch;
-    scanf("%d", &number);
-    scanf(" %c", &ch);
+    double fahrenheit, celcius;
+    printf("Enter Fahrenheit: ");
+    scanf("%lf", &fahrenheit);
+    celcius = (fahrenheit - 32) * 5 / 9;
+    printf("%.2lf", celcius);
+    return 0;
 
 }
