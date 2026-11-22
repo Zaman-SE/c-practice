@@ -2,18 +2,20 @@
 
 int main()
 {
-    int a = 1, b = 1;
-    if(a == 1)
-        if(b == 0)
-            printf("One\n");
-    else
-        printf("Two\n");
-    printf("Done\n");
+    int n = 2;
+    switch(n){
+        case 1: printf("1\n");
+        case 2: printf("2\n");
+        case 3: printf("3\n");
+        default: printf("Default\n");
+        case 4: printf("4\n");
 
-    int marks = 72;
-    if(marks >= 80) printf("A+\n");
-    else if(marks >= 70) printf("A\n");
-    else if(marks >= 60) printf("B\n");
-    else printf("below A-\n");
+    }
+    switch(7){
+        default: printf("default\n");
+        case 1: printf("1\n");
+        case 7: printf("2\n");
+    }
+
 }
 
