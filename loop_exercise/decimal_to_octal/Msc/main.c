@@ -2,8 +2,18 @@
 
 int main()
 {
-    int a = 49, b = 37;
-    a += b;b = a - b;a = a - b;
-    printf("%d %d", a, b);
+    int a, b, c, d, e;
+    scanf("%d", &a);
+    if(a >= 1000 && a <= 9999){
+        b = a % 10;
+        c = (a / 10) % 10;
+        d = (a / 100) % 10;
+        e = a / 1000;
+        printf("%d", b + c + d + e);
+    }else{
+        printf("Please input a 4 digit number");
+    }
+
 
 }
+
